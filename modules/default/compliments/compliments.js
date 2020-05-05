@@ -25,9 +25,9 @@ Module.register("compliments", {
 				"Looking good today!"
 			],
 			evening: [
-				"Wow, you look hot!",
-				"You look nice!",
-				"Hi, sexy!"
+				"Have you worked out today?",
+				"Antoine Mincy",
+				"Remember you are someone"
 			],
 			"....-01-01": [
 				"Happy new year!"
