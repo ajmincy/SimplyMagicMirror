@@ -12,7 +12,7 @@ Module.register("compliments", {
 	defaults: {
 		compliments: {
 			anytime: [
-				"Hey Tony"
+				"Testing Pull Request"
 			],
 			morning: [
 				"Good morning, handsome!",
