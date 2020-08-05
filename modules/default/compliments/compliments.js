@@ -12,19 +12,19 @@ Module.register("compliments", {
 	defaults: {
 		compliments: {
 			anytime: [
-				"Believe in yourself. You are braver than you think, more talented than you know, and capable of more than you imagine. ~Roy T. Bennett",
-				"The Pessimist Sees Difficulty In Every Opportunity. The Optimist Sees Opportunity In Every Difficulty. ~ Winston Churchill",
+				"Believe in yourself. You are braver than you think, more talented than you know, and capable of more than you imagine.\n ~Roy T. Bennett",
+				"The Pessimist Sees Difficulty In Every Opportunity. The Optimist Sees Opportunity In Every Difficulty.\n ~ Winston Churchill",
 				"You Learn More From Failure Than From Success. Don’t Let It Stop You. Failure Builds Character.",
-				"It’s Not Whether You Get Knocked Down, It’s Whether You Get Up. ~Vince Lombardi",
-				"More smiling, less worrying. More compassion, less judgment. More blessed, less stressed. More love, less hate. ~Roy T. Bennett",
-				"Failure Will Never Overtake Me If My Determination To Succeed Is Strong Enough. ~Og Mandino",
-				"We May Encounter Many Defeats But We Must Not Be Defeated. ~Maya Angelou",
-				"Do not fear failure but rather fear not trying. ~Roy T. Bennett",
-				"We Generate Fears While We Sit. We Overcome Them By Action. ~Dr. Henry Link",
-				"Accept yourself, love yourself, and keep moving forward. If you want to fly, you have to give up what weighs you down. ~Roy T. Bennett",
-				"Creativity Is Intelligence Having Fun. ~Albert Einstein",
-				"What You Lack In Talent Can Be Made Up With Desire, Hustle And Giving 110% All The Time ~Don Zimmer",
-				"Don't be pushed around by the fears in your mind. Be led by the dreams in your heart. ~Roy T. Bennett",
+				"It’s Not Whether You Get Knocked Down, It’s Whether You Get Up.\n ~Vince Lombardi",
+				"More smiling, less worrying. More compassion, less judgment. More blessed, less stressed. More love, less hate.\n ~Roy T. Bennett",
+				"Failure Will Never Overtake Me If My Determination To Succeed Is Strong Enough.\n ~Og Mandino",
+				"We May Encounter Many Defeats But We Must Not Be Defeated.\n ~Maya Angelou",
+				"Do not fear failure but rather fear not trying.\n ~Roy T. Bennett",
+				"We Generate Fears While We Sit. We Overcome Them By Action.\n ~Dr. Henry Link",
+				"Accept yourself, love yourself, and keep moving forward. If you want to fly, you have to give up what weighs you down.\n ~Roy T. Bennett",
+				"Creativity Is Intelligence Having Fun.\n ~Albert Einstein",
+				"What You Lack In Talent Can Be Made Up With Desire, Hustle And Giving 110% All The Time.\n ~Don Zimmer",
+				"Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.\n ~Roy T. Bennett",
 
 
 			],
