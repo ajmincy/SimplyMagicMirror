@@ -13,11 +13,6 @@ Module.register("newsfeed",{
 	defaults: {
 		feeds: [
 			{
-				title: "New York Times",
-				url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml",
-				encoding: "UTF-8" //ISO-8859-1
-			},
-			{
 				title: "Laker Nation",
 				url: "https://www.nba.com/lakers/rss.xml",
 				encoding: "UTF-8" //ISO-8859-1

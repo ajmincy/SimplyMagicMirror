@@ -97,10 +97,6 @@ var config = {
       config: {
         feeds: [
           {
-            title: "New York Times",
-            url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml",
-          },
-          {
             title: "Laker Nation",
             url: "https://www.nba.com/lakers/rss.xml",
           },
