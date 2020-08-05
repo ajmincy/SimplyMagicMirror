@@ -24,7 +24,7 @@ Module.register("calendar", {
     animationSpeed: 2000,
     fade: true,
     urgency: 7,
-    timeFormat: "absolute",
+    timeFormat: "dateheaders",
     dateFormat: "MMM Do",
     dateEndFormat: "LT",
     fullDayEventDateFormat: "MMM Do",
