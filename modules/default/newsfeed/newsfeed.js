@@ -16,6 +16,31 @@ Module.register("newsfeed",{
 				title: "New York Times",
 				url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml",
 				encoding: "UTF-8" //ISO-8859-1
+			},
+			{
+				title: "Laker Nation",
+				url: "https://www.nba.com/lakers/rss.xml",
+				encoding: "UTF-8" //ISO-8859-1
+			},
+			{
+				title: "NBA Power Rankings",
+				url: "https://www.nba.com/powerrankings/rss.xml",
+				encoding: "UTF-8" //ISO-8859-1
+			},
+			{
+				title: "Playstation",
+				url: "https://blog.us.playstation.com/feed",
+				encoding: "UTF-8" //ISO-8859-1
+			},
+			{
+				title: "Xbox",
+				url: "https://news.xbox.com/en-us/feed",
+				encoding: "UTF-8" //ISO-8859-1
+			},
+			{
+				title: "IGN",
+				url: "https://feeds.ign.com/ign/games-all",
+				encoding: "UTF-8" //ISO-8859-1
 			}
 		],
 		showSourceTitle: true,
@@ -32,8 +57,8 @@ Module.register("newsfeed",{
 		updateInterval: 10 * 1000,
 		animationSpeed: 2.5 * 1000,
 		maxNewsItems: 0, // 0 for unlimited
-		ignoreOldItems: false,
-		ignoreOlderThan: 24 * 60 * 60 * 1000, // 1 day
+		ignoreOldItems: true,
+		ignoreOlderThan: (24 * 60 * 60 * 1000) * 7, // 7 days
 		removeStartTags: "",
 		removeEndTags: "",
 		startTags: [],
