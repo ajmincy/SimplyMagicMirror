@@ -58,7 +58,7 @@ Module.register("newsfeed",{
 		animationSpeed: 2.5 * 1000,
 		maxNewsItems: 0, // 0 for unlimited
 		ignoreOldItems: true,
-		ignoreOlderThan: (24 * 60 * 60 * 1000) * 7, // 7 days
+		ignoreOlderThan: 24 * 60 * 60 * 1000, // 1 day
 		removeStartTags: "",
 		removeEndTags: "",
 		startTags: [],
