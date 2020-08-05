@@ -13,23 +13,13 @@ Module.register("newsfeed",{
 	defaults: {
 		feeds: [
 			{
+				title: "New York Times",
+				url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+				encoding: "UTF-8" //ISO-8859-1
+			},
+			{
 				title: "Laker Nation",
 				url: "https://www.nba.com/lakers/rss.xml",
-				encoding: "UTF-8" //ISO-8859-1
-			},
-			{
-				title: "NBA Power Rankings",
-				url: "https://www.nba.com/powerrankings/rss.xml",
-				encoding: "UTF-8" //ISO-8859-1
-			},
-			{
-				title: "Playstation",
-				url: "https://blog.us.playstation.com/feed",
-				encoding: "UTF-8" //ISO-8859-1
-			},
-			{
-				title: "Xbox",
-				url: "https://news.xbox.com/en-us/feed",
 				encoding: "UTF-8" //ISO-8859-1
 			},
 			{

@@ -97,20 +97,12 @@ var config = {
       config: {
         feeds: [
           {
+            title: "New York Times",
+            url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+          },
+          {
             title: "Laker Nation",
             url: "https://www.nba.com/lakers/rss.xml",
-          },
-          {
-            title: "NBA Power Rankings",
-            url: "https://www.nba.com/powerrankings/rss.xml",
-          },
-          {
-            title: "Playstation",
-            url: "https://blog.us.playstation.com/feed",
-          },
-          {
-            title: "Xbox",
-            url: "https://news.xbox.com/en-us/feed ",
           },
           {
             title: "IGN",
