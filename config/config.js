@@ -68,10 +68,13 @@ var config = {
         calendars: [
           {
             url: "http://www.calendarlabs.com/templates/ical/US-Holidays.ics",
-            symbol: "calendar",
+          },
+          {
+            url:
+              "https://calendar.google.com/calendar/ical/jamell.mincy%40gmail.com/private-ef6ddd63fb011bc4f609fe84da7b60f9/basic.ics",
             auth: {
-              user: "username",
-              pass: "superstrongpassword",
+              user: "jamell.mincy@gmail.com",
+              pass: "@RemiStacy4Ever!",
               method: "basic",
             },
           },
