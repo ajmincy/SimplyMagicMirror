@@ -115,6 +115,20 @@ var config = {
         broadcastNewsUpdates: true,
       },
     },
+    {
+      module: "MMM-cryptocurrency",
+      position: "top_right",
+      config: {
+        apikey: '79bb149a-0a91-4d2f-8dce-034809bc0898',
+        currency: ['ethereum', 'bitcoin', 'litecoin', 'chainlink', 'dogecoin'],
+        conversion: 'USD',
+        headers: ['change24h', 'change1h', 'change7d'],
+        displayLongNames: true,
+        maximumFractionDigits: 2,
+        displayType: 'detail',
+        showGraphs: true
+      }
+    },
   ],
 };
 
