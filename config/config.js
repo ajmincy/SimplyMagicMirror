@@ -51,6 +51,15 @@ var config = {
       position: "lower_third",
     },
     {
+      module: "currentweather",
+      position: "top_right",
+      config: {
+        location: "New York",
+        locationID: "", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
+        appid: "YOUR_OPENWEATHER_API_KEY",
+      },
+    },
+    {
       module: "calendar",
       position: "top_left", // This can be any of the regions. Best results in left or right regions.
       config: {
@@ -72,7 +81,16 @@ var config = {
         ],
       },
     },
-
+    {
+      module: "weatherforecast",
+      position: "top_right",
+      header: "Weather Forecast",
+      config: {
+        location: "New York",
+        locationID: "5128581", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
+        appid: "YOUR_OPENWEATHER_API_KEY",
+      },
+    },
     {
       module: "newsfeed",
       position: "bottom_bar",
