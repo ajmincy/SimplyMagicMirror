@@ -51,15 +51,6 @@ var config = {
       position: "lower_third",
     },
     {
-      module: "currentweather",
-      position: "top_right",
-      config: {
-        location: "New York",
-        locationID: "", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-        appid: "YOUR_OPENWEATHER_API_KEY",
-      },
-    },
-    {
       module: "calendar",
       position: "top_left", // This can be any of the regions. Best results in left or right regions.
       config: {
@@ -81,16 +72,7 @@ var config = {
         ],
       },
     },
-    {
-      module: "weatherforecast",
-      position: "top_right",
-      header: "Weather Forecast",
-      config: {
-        location: "New York",
-        locationID: "5128581", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-        appid: "YOUR_OPENWEATHER_API_KEY",
-      },
-    },
+
     {
       module: "newsfeed",
       position: "bottom_bar",
@@ -119,15 +101,41 @@ var config = {
       module: "MMM-cryptocurrency",
       position: "top_right",
       config: {
-        apikey: '79bb149a-0a91-4d2f-8dce-034809bc0898',
-        currency: ['ethereum', 'bitcoin', 'litecoin', 'chainlink', 'dogecoin'],
-        conversion: 'USD',
-        headers: ['change24h', 'change1h', 'change7d'],
+        apikey: "79bb149a-0a91-4d2f-8dce-034809bc0898",
+        currency: ["ethereum", "bitcoin", "litecoin", "chainlink", "dogecoin"],
+        conversion: "USD",
+        headers: ["change24h", "change1h", "change7d"],
         displayLongNames: true,
         maximumFractionDigits: 2,
-        displayType: 'detail',
-        showGraphs: true
-      }
+        logoHeaderText: "Simply Crypto",
+        displayType: "logoWithChanges",
+        showGraphs: true,
+      },
+    },
+    {
+      module: "MMM-MyScoreboard",
+      position: "bottom_right",
+      classes: "default everyone",
+      header: "My Scoreboard",
+      config: {
+        showLeagueSeparators: true,
+        colored: true,
+        viewStyle: "mediumLogos",
+        sports: [
+          {
+            league: "NBA",
+            teams: ["LAL", "ATL"],
+          },
+          {
+            league: "MLB",
+            teams: ["ATL"],
+          },
+          {
+            league: "NFL",
+            teams: ["ATL"],
+          },
+        ],
+      },
     },
   ],
 };
