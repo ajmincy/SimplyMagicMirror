@@ -48,10 +48,10 @@
     "grunt-yamllint": "latest",
     "http-auth": "^3.2.3",
     "jsdom": "^11.6.2",
-    "mocha": "^7.0.0",
+    "mocha": "^7.2.0",
     "mocha-each": "^1.1.0",
-    "mocha-logger": "^1.0.6",
-    "spectron": "^8.0.0",
+    "mocha-logger": "^1.0.8",
+    "spectron": "^19.0.0",
     "stylelint": "latest",
     "stylelint-config-standard": "latest",
     "time-grunt": "latest"
